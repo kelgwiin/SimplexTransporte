@@ -1,0 +1,305 @@
+@charset "utf-8";
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	background:#F9F7FF; 
+	background-image:url(images/esquina.jpg) ;
+	background-repeat: no-repeat;
+	background-position:right bottom;
+	
+	font:normal 16px Arial, Helvetica, sans-serif;
+	color:#4D4D4D;
+	line-height:1.8em;	
+}
+html {
+	padding:0;
+	margin:0;
+}
+li.bg, .bg {
+	clear:both;
+	border-bottom:1px dashed #818181;
+	padding:0;
+	margin:10px 0;
+	background:none;
+	list-style:none;
+}
+p.clr, .clr {
+	clear:both;
+	padding:0;
+	margin:0;
+}
+.main {
+	margin:0 auto;
+	padding:0;
+}
+.header_resize {
+	margin:0 auto;
+	padding:0;
+	width:970px;
+}
+.header {
+	margin:0;
+	padding:0;
+	background:#fff url(images/header_bg.jpg) top repeat-x;
+}
+.logo {
+	width:350px;
+	margin:0 auto;
+	padding:9px 0 0 0;
+	float:left;
+}
+h1 {
+	margin:0;
+	padding:40px 0 0 40px;
+	color: #115813;
+	font:bold 36px/1.2em Arial, Helvetica, sans-serif;
+	text-transform:none;
+	letter-spacing:-2px;
+}
+h1 a, h1 a:hover {
+	color:#999898;
+	text-decoration:none;
+}
+h1 span {
+	color:#115813;
+	font-size:45px;
+}
+h1 small {
+	padding-left:90px;
+	font:normal 15px/1.2em Arial, Helvetica, sans-serif;
+	text-transform:none;
+	letter-spacing:normal;
+}
+.menu {
+	padding:0;
+	margin:0;
+	width:410px;
+	float:right;
+}
+.menu ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+	border:0;
+	float:right;
+}
+.menu ul li {
+	float:left;
+	margin:0;
+	padding:0 5px;
+	border:0;
+}
+.menu ul li a {
+	float:left;
+	margin:0;
+	padding:20px 0;
+	color:#3f3f3f;
+	font:bold 16px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+.menu ul li a span {
+	padding:20px 10px;
+	background:none;
+}
+.menu ul li a:hover {
+	color:#fff;
+	background:url(images/r_menu.jpg) no-repeat right;
+}
+.menu ul li a:hover span {
+	color:#fff;
+	background:url(images/l_menu.jpg) no-repeat left;
+}
+.menu ul li a.active {
+	color:#fff;
+	background:url(images/r_menu.jpg) no-repeat right;
+}
+.menu ul li a.active span {
+	color:#fff;
+	background:url(images/l_menu.jpg) no-repeat left;
+}
+.headert_text_resize {
+	width:970px;
+	padding:0;
+	margin:0 auto;
+	background:url(images/text_bg.jpg) center no-repeat;
+	height:406px;
+}
+.headert_text_resize img {
+	float:right;
+	margin:0;
+	padding:15px 36px 0 0;
+}
+.headert_text_resize .textarea {
+	width:400px;
+	margin:0;
+	padding:80px 30px 0 80px;
+	float:left;
+}
+.headert_text_resize .textarea h2 {
+	font:bold 24px Arial, Helvetica, sans-serif;
+	color:#feffff;
+	padding:10px 0;
+	margin:0;
+}
+.headert_text_resize .textarea p {
+	font:bold 15px Arial, Helvetica, sans-serif;
+	color:#feffff;
+	padding:10px 0;
+	margin:0;
+	line-height:1.6em;
+}
+.headert_text_resize .textarea a {
+	color:#feffff;
+	text-decoration:underline;
+}
+.body_resize {
+	margin:0 auto;
+	padding:0;
+	width:80%;
+}
+.body {
+	margin:0;
+	padding:0;
+}
+.body h2 {
+	font:normal 24px Arial, Helvetica, sans-serif;
+	color:#3f3f3f;
+	padding:10px 5px;
+	margin:5px 0 10px 0;
+}
+.body h2 span {
+	color:#959595;
+	font:normal 12px Arial, Helvetica, sans-serif;
+}
+.body p {
+	font:normal 16px Arial, Helvetica, sans-serif;
+	color:#4D4D4D;
+	padding:5px;
+	margin:5;
+	line-height:1.8em;
+}
+.body p span {
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#4b4b4b;
+	padding:0;
+	margin:0;
+}
+.body img {
+	float:left;
+	margin:5px;
+	padding:0;
+}
+.body img.floated {
+	float:right;
+	margin:5px 10px 5px 0;
+	padding:0;
+}
+.body a {
+	color:#ea5d00;
+	text-decoration:underline;
+}
+.left {
+	float:left;
+	width:90%;
+	margin:0;
+	padding:0;
+}
+
+.footer_resize {
+	margin:0 auto;
+	padding:25px 0;
+	width:970px;
+	border-top:1px solid #dfdfdf;
+	color:#5f5f5f;
+	font:normal 12px Arial, Helvetica, sans-serif;
+}
+.footer {
+	padding:0;
+	margin:10px auto;
+}
+.footer p {
+	margin:0;
+	padding:4px 0;
+	line-height:normal;
+	color:#5f5f5f;
+}
+.footer a {
+	color:#5f5f5f;
+	padding:inherit;
+	text-decoration:underline;
+}
+.footer a:hover {
+	text-decoration:none;
+}
+.footer .lf {
+	float:left;
+}
+.footer .rf {
+	float:right;
+}
+
+
+/*
+ Nuevas configuraciones agregadas por kelwin
+*/
+body .left .invisible{
+	color: white;
+	text-align:center
+}
+
+body .coeficiente{
+	text-align:center;
+	font-weight:bold
+}
+
+body td.tachada{
+	/*Fondo verde*/
+	background-color: #EAF2D3;
+}
+
+
+body .left  td.tachada p.invisible{
+	color:#EAF2D3
+}
+
+body .left  td.camino{
+	color:#FFFFFF;
+	background: #0DE54A;
+}
+
+body .left  p.entrada{
+	color: red;
+	font-weight: bold
+}
+
+body table.noroeste
+{
+	border: 1px solid white;
+}
+
+body .left .bordes{
+	/*Fondo verde oliva*/
+	background-color: #0ab52b;
+	color:white;
+	font-weight: bold;
+}
+
+body .left  td.fuente,td.destino{
+	background-color: #EAF2D3;
+	color: #000;
+	font-weight: bold;
+}
+
+body table.modelo, body b.modelo{
+	font-size:18px;
+}
+
+
+body .importante{
+	color: green;
+	font-weight: bold;
+}
+
+body .error{color: red;}
+

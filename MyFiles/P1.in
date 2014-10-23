@@ -1,0 +1,18 @@
+Min 61x11 + 72x12 + 45x13 + 55x14 + 66x15 + 69x21 + 78x22 + 60x23 + 49x24 + 56x25 + 59x31 + 66x32 + 63x33 + 61x34 + 47x35
+    !Donde xij es la cantidad de pies lineales de madera enviados de la fuente i al destino j
+
+ST
+
+!Restricciones de Oferta
+x11 + x12 + x13 + x14 + x15 = 15
+x21 + x22 + x23 + x24 + x25 = 20
+x31 + x32 + x33 + x34 + x35 = 15
+
+!Restricciones de Demanda
+x11 + x21 + x31 = 11
+x12 + x22 + x32 = 12
+x13 + x23 + x33 = 9
+x14 + x24 + x34 = 10
+x15 + x25 + x35 = 8
+
+END

@@ -1,0 +1,42 @@
+-------------
+LIMITACIONES:|
+-------------
+
+1.- La función de minimización debe estar en una línea y el divisor entre
+cada elemento (llámese signo o término) debe ser en la medida de lo posible
+un espacio en blanco, ya que internamente se asume la primera línea que no
+sea comentario como la de función de minimización y además se llama a una función
+de PHP para partir la cadena adquirida.
+
+2.- El nombre de la variable debe ser equis "x".
+
+3.- Los índices que se encuentran al lado de las equis deben ser estrictamente 
+numéricos, no acepta letras, se hace esta acotación porque uno de los casos de
+ejemplo presentaba letras.
+
+4.- Los índices pueden encontrarse en un rango del 1 al 9, de manera  que el término
+de mayor aceptación sería algo como esto: 212x99.
+
+5.- El coeficiente acompañante del término no tiene límite, salvo las
+limitaciones de memoria que posea el lenguaje.
+
+---------------------------------------------------------------
+EJEMPLO DE ENTRADA (es el mismo que se encuentra en las guías):|
+---------------------------------------------------------------
+
+! Caso de Prueba del Simplex de Transporte
+! Realizando pruebas de los comentarios
+
+MIN 464x11 + 513x12 + 654x13 + 867x14 + 352x21 + 416x22 + 690x23 + 791x24 + 995x31 + 682x32 + 388x33 + 685x34
+
+ST
+
+U1) x11 + x12 + x13 + x14 = 75
+U2) x21 + x22 + x23 + x24 = 125
+U3) x31 + x32 + x33 + x34 = 100
+U4) x11 + x21 + x31 = 80
+V1) x12 + x22 + x32 = 65
+V2) x13 + x23 + x33 = 70
+V3) x14 + x24 + x34 = 85
+
+END

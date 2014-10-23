@@ -1,0 +1,16 @@
+! Caso de Prueba del Simplex de Transporte
+! Realizando pruebas de los comentarios
+
+MIN 464x11 + 513x12 + 654x13 + 867x14 + 352x21 + 416x22 + 690x23 + 791x24 + 995x31 + 682x32 + 388x33 + 685x34
+
+ST
+
+U1) x11 + x12 + x13 + x14 <= 75
+U2) x21 + x22 + x23 + x24 <= 125
+U3) x31 + x32 + x33 + x34 <= 100
+U4) x11 + x21 + x31 <= 80
+V1) x12 + x22 + x32 <= 65
+V2) x13 + x23 + x33 <= 70
+V3) x14 + x24 + x34 <= 85
+
+END
