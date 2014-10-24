@@ -1,7 +1,7 @@
 SimplexTransporte
 =================
 
-Método Simplex de Transporte. Área; Investigación de Operaciones. 
+Método Simplex de Transporte. Área: Investigación de Operaciones. 
 
 
 Elaborado por:
